@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="app text-white flex flex-col items-center m-auto px-2 max-w-[400px]">
+    <div className="text-white flex flex-col items-center m-auto px-2 max-w-[400px]">
       <h1 className="text-3xl font-bold my-5">ToDo List: {tasks.length}</h1>
       <ToDoForms addTask = {addTask}/>
       {tasks.map((task) => {
